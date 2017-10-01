@@ -1,0 +1,91 @@
+---
+title: Schedule
+---
+
+<div class="limit limit--top-margin">
+
+  {% include schedule/intro.html date='October 6th' %}
+
+  <div class="schedule" data-dates="1-25,5-12,1-24">
+    <table class="schedule__table">
+      <thead>
+        {% include schedule/header.html tracks='1' %}
+      </thead>
+      <tbody>
+        {% include schedule/event.html time='08:30 - 09:20' title='Check-in' fill='true' %}
+        {% include schedule/event.html time='09:20 - 09:30' title='GrUSP presentation' fill='true' %}
+        {% include schedule/event.html time='09:30 - 09:40' title='FEVR & ReactJS Day presentation' fill='true' %}
+
+        {% include schedule/talk.html time='09:40 - 10:25' title='setState demystified' keynote='true' fill='true' %}
+        {% include schedule/talk.html time='10:25 - 10:55' title='Why you should (not) build a reusable components library for your company' fill='true' %}
+
+        {% include schedule/pause.html time='10:55 - 11:15' title='Short break' icon="coffee" fill='true' %}
+
+        {% include schedule/talk.html time='11:15 - 11:45' title='Introduction To Elm For React Developers' fill='true' %}
+        {% include schedule/talk.html time='11:45 - 12:15' title='On the way to making the React components more reusable' fill='true' %}
+        {% include schedule/talk.html time='12:15 - 12:45' title='If it quacks like React and renders like React, is it React?' fill='true' %}
+
+        {% include schedule/pause.html time='12:45 - 14:20' title='Lunch + Lightning talks' icon="food" fill='true' %}
+
+        {% include schedule/talk.html time='14:20 - 14:55' title='Introduction to ReactVR - because 2D is not good enough!' fill='true' %}
+        {% include schedule/talk.html time='14:55 - 15:25' title='The story of storybook' fill='true' %}
+        {% include schedule/talk.html time='15:25 - 15:55' title='Shared Element Transition with React Native' fill='true' %}
+        {% include schedule/talk.html time='15:55 - 16:25' title='Build Your React Application with StyledComponents and FlexBox' fill='true' %}
+
+        {% include schedule/pause.html time='16:25 - 16:55' title='Coffee break' icon="coffee" fill='true' %}
+
+        {% include schedule/talk.html time='16:55 - 17:25' title='React state management in a GraphQL era' fill='true' %}
+        {% include schedule/talk.html time='17:25 - 17:55' title='Styling Components for React UI Kits' fill='true' %}
+
+        {% include schedule/talk.html time='17:55 - 18:25' title='Mutable or Immutable? Why not both!' keynote='true' fill='true' %}
+
+        {% include schedule/pause.html time='18:25 - 18:35' title='Bye bye from GrUSP & FEVR' icon="bar" fill='true' %}
+
+        {% include schedule/pause.html time='18:40 - 20:00' title='Happy hour!' icon="bar" fill='true' %}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="schedule schedule--mobile" data-dates="5-12,1-24,1-25">
+    <table class="schedule__table">
+      <thead>
+        {% include schedule/header.html track='1' %}
+      </thead>
+      <tbody>
+        {% include schedule/event.html time='08:30 - 09:20' title='Check-in' fill='true' %}
+        {% include schedule/event.html time='09:20 - 09:30' title='GrUSP presentation' fill='true' %}
+        {% include schedule/event.html time='09:30 - 09:40' title='FEVR & ReactJS Day presentation' fill='true' %}
+
+        {% include schedule/talk.html time='09:40 - 10:25' title='setState demystified' keynote='true' fill='true' %}
+        {% include schedule/talk.html time='10:25 - 10:55' title='Why you should (not) build a reusable components library for your company' fill='true' %}
+
+        {% include schedule/pause.html time='10:55 - 11:15' title='Short break' icon="coffee" fill='true' %}
+
+        {% include schedule/talk.html time='11:15 - 11:45' title='Introduction To Elm For React Developers' fill='true' %}
+        {% include schedule/talk.html time='11:45 - 12:15' title='On the way to making the React components more reusable' fill='true' %}
+        {% include schedule/talk.html time='12:15 - 12:45' title='If it quacks like React and renders like React, is it React?' fill='true' %}
+
+        {% include schedule/pause.html time='12:45 - 14:20' title='Lunch + Lightning talks' icon="food" fill='true' %}
+
+        {% include schedule/talk.html time='14:20 - 14:55' title='Introduction to ReactVR - because 2D is not good enough!' fill='true' %}
+        {% include schedule/talk.html time='14:55 - 15:25' title='The story of storybook' fill='true' %}
+        {% include schedule/talk.html time='15:25 - 15:55' title='Shared Element Transition with React Native' fill='true' %}
+        {% include schedule/talk.html time='15:55 - 16:25' title='Build Your React Application with StyledComponents and FlexBox' fill='true' %}
+
+        {% include schedule/pause.html time='16:25 - 16:55' title='Coffee break' icon="coffee" fill='true' %}
+
+        {% include schedule/talk.html time='16:55 - 17:25' title='React state management in a GraphQL era' fill='true' %}
+        {% include schedule/talk.html time='17:25 - 17:55' title='Styling Components for React UI Kits' fill='true' %}
+        {% include schedule/talk.html time='17:55 - 18:25' title='Mutable or Immutable? Why not both!' fill='true' %}
+
+        {% include schedule/pause.html time='18:25 - 18:35' title='Bye bye from GrUSP & FEVR' icon="bar" fill='true' %}
+
+        {% include schedule/pause.html time='18:40 - 20:00' title='Happy hour!' icon="bar" fill='true' %}
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+{% include index/newsletter.html %}
+{% include index/sponsors.html %}
