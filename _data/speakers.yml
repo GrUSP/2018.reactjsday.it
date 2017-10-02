@@ -2,10 +2,10 @@
 # img/conf-name/speaker/file.jpg
 # description is actually the company the speaker is working for
 list:
-  -
-    id:
-    description:
-    image:
-    first_name:
-    last_name:
-    twitter:
+#  -
+#    id:
+#    description:
+#    image:
+#    first_name:
+#    last_name:
+#    twitter:
