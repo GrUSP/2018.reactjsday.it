@@ -56,6 +56,9 @@ platinum:
    -
      url: http://www.reply.com/triplesense/it/?utm_source=reactjsday
      image: triplesensereply.svg
+   -
+     url: https://labs.madisoft.it/?utm_source=reactjsday
+     image: madisoft.svg
 
 gold:
   price: € 1,000
