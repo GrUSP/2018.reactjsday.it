@@ -40,7 +40,10 @@ main:
     - 5 free tickets
   max: 1
   list:
-
+   -
+     url: https://www.accenture.com/it-it/new-applied-now
+     image: sponsor_accenture.svg
+ 
 platinum:
   price: € 3,000
   offer:
