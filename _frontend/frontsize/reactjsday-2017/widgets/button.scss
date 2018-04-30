@@ -11,7 +11,7 @@
   transition: background-color 0.075s ease-out, color 0.075s ease-out;
 
   &:hover {
-    color: $color-text;
+    color: $color-purple;
   }
 
   @include modifier ('left') {
@@ -23,7 +23,7 @@
     color: $color-text-action;
 
     &:hover {
-      background-color: lighten($color-background-action, 5%);
+      background-color: $color-purple;
       color: $color-text-action;
     }
   }
@@ -121,7 +121,7 @@
     width: 38px;
 
     &:hover {
-      background-color: lighten($color-background-action, 5%);
+      background-color: $color-purple;
       color: $color-text-action;
     }
 
@@ -149,7 +149,7 @@
     color: $color-text-submit;
 
     &:hover {
-      color: $color-text-action;
+      color: $color-purple;
     }
   }
 }

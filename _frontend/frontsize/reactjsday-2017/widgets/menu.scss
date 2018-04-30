@@ -80,7 +80,7 @@
       font-size: 72px;
       transform: scale(1);
       transition: color 0.125s ease-out, transform 0.075s ease-out;
-
+      
       &:hover {
         color: $color-menu-button-alt;
         transform: scale(1.25);
@@ -109,7 +109,7 @@
   }
 
   @include element ('button') {
-    color: $color-menu-button-alt;
+    color: $color-menu-button;
     display: inline-block;
     font-family: $font-family-header;
     font-size: 40px;
@@ -117,9 +117,9 @@
     text-decoration: none;
     text-transform: uppercase;
     transition: color 0.25s ease-out;
-
+    
     &:hover {
-      color: $color-menu-button;
+      color: $color-menu-button-alt;
     }
 
     @include modifier ('sold-out') {

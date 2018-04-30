@@ -92,7 +92,7 @@
     z-index: 1;
     
     &:hover {
-      background-color: lighten($color-background-action, 5%);
+      background-color: $color-purple;
     }
 
     @include modifier ('sold-out') {
