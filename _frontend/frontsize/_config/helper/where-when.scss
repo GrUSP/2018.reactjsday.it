@@ -1,5 +1,6 @@
 @mixin where-when {
-  font-family: $font-family-title;
-  font-style: italic;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: 700;
+  text-align: center;
+  color: $color-link-water
 }
