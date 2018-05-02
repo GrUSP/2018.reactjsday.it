@@ -44,19 +44,19 @@
     font-size: $font-size;
 
     @include media ('<desktop-large') {
-      font-size: s(0.75, $font-size);
+      font-size: 140px
     }
 
     @include media ('<tablet-large') {
-      font-size: s(0.6, $font-size);
+      font-size: 100px;
     }
 
     @include media ('<tablet-small') {
-      font-size: s(0.4, $font-size);
+      font-size: 70px;
     }
 
     @include media ('<mobile-large') {
-      font-size: s(0.22, $font-size);
+      font-size: 50px;
     }
 
     @include element ('text') {
