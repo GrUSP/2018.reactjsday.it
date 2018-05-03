@@ -2,10 +2,11 @@
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
-  height: 100vh;
+  //height: 700px;
+  min-height: 100vh;
   position: relative;
   color: #fff;
+  margin-top: 50px;
 
   
   @include modifier ('no-height') {
@@ -19,25 +20,25 @@
   }
   
   @include media ('<mobile-large') {
-    height: 420px;
-    margin-top: 50px;
+    min-height: 420px;
+    //margin-top: 50px;
   }
   
   @include media ('>=mobile-large') {
-    height: 100vh;
-    margin-top: 20px;
+    min-height: 100vh;
+    //margin-top: 20px;
   }
   
   @include media ('>=tablet-small') {
-    height: 550px;
+    min-height: 550px;
   }
   
   @include media ('>=tablet-large') {
-    height: 750px;
+    min-height: 750px;
   }
   
   @include media ('>=desktop-large') {
-    height: 100vh;
+    min-height: 100vh;
   }
   
   @include element ('title') {
@@ -98,6 +99,7 @@
     font-size: 40px;
     font-style: normal;
     text-align: center;
+    padding-bottom: 65px;
   }
 
   @include element ('register') {
