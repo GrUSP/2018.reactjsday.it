@@ -35,6 +35,7 @@
     margin-bottom: 0;
     margin-top: s(1);
     text-align: center;
+    color: $color-mine-shaft;
 
     @include media ('>=mobile-large') {
       font-size: 20px;
@@ -52,7 +53,7 @@
 
   @include element ('question-red') {
     @include where-when;
-    color: $color-text-question;
+    color: $color-mine-shaft;
     display: block;
     font-size: 18px;
     margin-top: s(3);

@@ -44,6 +44,7 @@
     font-size: 32px;
     margin-bottom: s(5);
     margin-top: s(-5);
+    color: $color-mine-shaft;
 
     @include media ('<mobile-large') {
       margin-bottom: s(1);
