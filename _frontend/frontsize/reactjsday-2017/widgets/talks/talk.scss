@@ -33,12 +33,12 @@
   }
 
   @include element ('speaker') {
-    background-color: $color-mine-shaft;
+    background-color: $color-purple;
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
-    filter: grayscale(1);
+    // filter: grayscale(1);
     height: 600px;
     width: 75%;
 
@@ -101,13 +101,17 @@
   @include element ('speaker-twitter') {
     background-color: $color-background-talk-highlight;
     clear: both;
-    color: $color-text-schedule-speaker;
+    color: $color-purple;
     float: left;
     font-size: 14px;
     margin-left: s(-0.5);
     margin-top: s(-0.5);
     padding: s(0.5);
     text-decoration: none;
+
+    &:hover {
+      color: $color-jordy-blue;
+    }
 
     & + & {
       margin-top: s(1);
@@ -117,6 +121,7 @@
   @include element ('keynote') {
     clear: both;
     float: left;
+    color: $color-purple;
     margin-top: s(1);
   }
 
