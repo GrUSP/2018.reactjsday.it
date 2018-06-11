@@ -2,6 +2,23 @@
 # img/conf-name/speaker/file.jpg
 # description is actually the company the speaker is working for
 list:
+
+  -
+    id: michael-jackson
+    description: "React Training"
+    image: michael-jackson.jpg
+    first_name: Michael
+    last_name: Jackson
+    twitter: mjackson
+    
+  -
+    id: sara-vieira
+    description: YLD 
+    image: sara-vieira.jpg
+    first_name: Sara
+    last_name: Vieira
+    twitter: NikkitaFTW
+
 #  -
 #    id:
 #    description:

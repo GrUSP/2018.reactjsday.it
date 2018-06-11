@@ -1,6 +1,22 @@
 -
-  speaker_id:
-  title:
-  keynote:
+  speaker_id: michael-jackson
+  title: TBA
+  keynote: true
   extract: >
 
+-
+  speaker_id: sara-vieira
+  title: "Let's manage our local state with GraphQL."
+  keynote: false
+  extract: > 
+    Apollo has given us freedom and happiness when it comes to managing our data coming from 
+    the server but we still had to write code and sometimes a lot of it to manage our local state?<br> <br>   
+    Well, what if we managed it with queries too? Sounds too awesome right?<br> <br> 
+    Let's learn how to do this with apollo-link-state
+
+
+#-
+#  speaker_id: 
+#  title:
+#  keynote:
+#  extract: >
