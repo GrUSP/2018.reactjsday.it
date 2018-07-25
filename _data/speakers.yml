@@ -18,6 +18,14 @@ list:
     first_name: Sara
     last_name: Vieira
     twitter: NikkitaFTW
+    
+  -
+    id: ives-van-hoorne
+    description: codesandbox 
+    image: ives-van-hoorne.jpg
+    first_name: Ives
+    last_name: Van Hoorne
+    twitter: CompuIves
 
 #  -
 #    id:
