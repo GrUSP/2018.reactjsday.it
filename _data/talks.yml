@@ -14,6 +14,15 @@
     Well, what if we managed it with queries too? Sounds too awesome right?<br> <br> 
     Let's learn how to do this with apollo-link-state
 
+-
+  speaker_id: ives-van-hoorne
+  title: "Modern Browser Technologies Pitfalls/Animation For Better UI"
+  keynote: false
+  extract: > 
+    I want to talk about creating more intuitive and powerful React applications using either animation 
+    or browser technologies. <br> <br> I will talk about my experience with CodeSandbox along the way for 
+    examples.
+
 
 #-
 #  speaker_id: 
