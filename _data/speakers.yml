@@ -10,18 +10,18 @@ list:
     first_name: Michael
     last_name: Jackson
     twitter: mjackson
-    
+
   -
     id: sara-vieira
-    description: YLD 
+    description: YLD
     image: sara-vieira.jpg
     first_name: Sara
     last_name: Vieira
     twitter: NikkitaFTW
-    
+
   -
     id: ives-van-hoorne
-    description: codesandbox 
+    description: codesandbox
     image: ives-van-hoorne.jpg
     first_name: Ives
     last_name: Van Hoorne

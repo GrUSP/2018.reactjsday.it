@@ -54,6 +54,12 @@ platinum:
   max: 4
   list:
    -
+     url: https://www.workwave.com/
+     image: workwave.svg
+   -
+     url: https://www.skill.it/?utm_source=reactjsday
+     image: skill.svg
+   -
      url: http://www.reply.com/triplesense/it/?utm_source=reactjsday
      image: triplesensereply.svg
 
