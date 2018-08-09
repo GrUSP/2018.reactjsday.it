@@ -41,7 +41,7 @@ list:
     image: max-millington.jpg
     first_name: Max
     last_name: Millington
-    twitter: ""
+    twitter:
 
   -
     id: ovidiu-chereches
