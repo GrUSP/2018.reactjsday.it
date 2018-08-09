@@ -23,6 +23,74 @@
     experience of the user better. This won't mean that you need to drop support for older browsers, these improvements
     can be used to enhance the experience instead of replacing it.
 
+-
+  speaker_id: manjula-dube
+  title: "Lets some advanced patterns in building React Components"
+  keynote: false
+  extract: >
+    This talk is going to focus on some advanced patterns in building your react components.
+    More over we do not know what the best way to do things and we end up feeling stressed out. 
+    To release your stress let talk you can make use of some patterns that worked for us best and 
+    will work for you as well :)
+
+-
+  speaker_id: max-millington
+  title: "A Reappreciation of Redux: Why my team at PayPal removed Apollo Client and went back to Redux"
+  keynote: false
+  extract: >
+    Keeping up with the JavaScript community can be one of the most difficult yet enjoyable parts of 
+    being a frontend developer. <br> <br>
+    
+    It is not easy to know what will truly deliver lasting value to your development as opposed 
+    to what is merely a passing fad or what will fail to live up to its hype.
+    My team at PayPal has been excitedly using GraphQL in many of our new apps. 
+    We love the idea of a single endpoint providing frontend developers access to 
+    the great multitude of PayPal services.<br> <br>
+    
+    In our excitement for GraphQL, we also implemented Apollo Client and React Apollo into our app. 
+    After all, the boilerplate and heavy weight of Redux has been much maligned, 
+    and we saw and easy way to significantly reduce the amount of code we wrote, 
+    all the while utilizing the sleek new utility for state management that Apollo Client provided.<br> <br>
+    
+    However, we soon realized that we had made a mistake and pre-emptively jumped into Apollo Client. 
+    The fact of the matter is, Redux is much more than simply state management, and we had failed 
+    in our original estimation to fully appreciate what Redux gave our app that Apollo Client simply does not. 
+    <br> <br>
+
+    This talk will explore why we initially were so excited about Apollo Client and why it was our first choice. 
+    It will then explain how Apollo Client fell short of our needs, and why Redux is a significantly 
+    better choice for most larger applications. Finally, it will hope to inspire a reappreciation for Redux.
+
+-
+  speaker_id: ovidiu-chereches
+  title: "Testing React Components and Coding with Confidence"
+  keynote: false
+  extract: > 
+    Testing should make us confident. Confident that our software does what we think it does, 
+    and that it will continue to do so as we pile up features. <br> <br>
+    
+    But testing UI components rarely breeds confidence. Instead, it often makes us feel angry and unproductive. 
+    Let's look the beast in the eye and talk about a set of tools that make testing React components 
+    as easy as writing them. We'll learn how to mock component props, state, Redux state, app context 
+    from wrapper components, as well as API responses, without copy pasting boilerplate from one test 
+    to another.
+
+-
+  speaker_id: luca-matteis
+  title: "Behavioral Programming with React: request, wait and block"
+  keynote: false
+  extract: >
+  Behavioral programming simplifies the task of dealing with underspecification and conflicting
+  requirements by enabling the addition of software modules that can not only add to but also
+  modify existing behaviors. <br> <br>
+    
+  In this talk I will describe how Behavioral Programming concepts can be applied to React. 
+  Specifically, I will showcase real-world examples and demonstrate how programming using this 
+  new paradigm can alleviate some of the issues that arise when programming with large teams. 
+  Moreover I will present a library that can be used to program what I call "behavioral components" 
+  using this new idiom.
+
+
 #-
 #  speaker_id:
 #  title:

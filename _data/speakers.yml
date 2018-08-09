@@ -27,6 +27,38 @@ list:
     last_name: Van Hoorne
     twitter: CompuIves
 
+  -
+    id: manjula-dube
+    description: Geekabyte
+    image: manjula-dube.jpg
+    first_name: Manjula
+    last_name: Dube
+    twitter: manjula_dube
+
+  -
+    id: max-millington
+    description: Paypal
+    image: max-millington.jpg
+    first_name: Max
+    last_name: Millington
+    twitter: ""
+
+  -
+    id: ovidiu-chereches
+    description: ReactCosmos
+    image: ovidiu-chereches.jpg
+    first_name: Ovidiu
+    last_name: Cherecheş
+    twitter: skidding
+
+  -
+    id: luca-matteis
+    description: ""
+    image: luca-matteis.jpg
+    first_name: Luca
+    last_name: Matteis
+    twitter: lmatteis
+
 #  -
 #    id:
 #    description:
