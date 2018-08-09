@@ -80,15 +80,15 @@
   title: "Behavioral Programming with React: request, wait and block"
   keynote: false
   extract: >
-  Behavioral programming simplifies the task of dealing with underspecification and conflicting
-  requirements by enabling the addition of software modules that can not only add to but also
-  modify existing behaviors. <br> <br>
-    
-  In this talk I will describe how Behavioral Programming concepts can be applied to React. 
-  Specifically, I will showcase real-world examples and demonstrate how programming using this 
-  new paradigm can alleviate some of the issues that arise when programming with large teams. 
-  Moreover I will present a library that can be used to program what I call "behavioral components" 
-  using this new idiom.
+    Behavioral programming simplifies the task of dealing with underspecification and conflicting
+    requirements by enabling the addition of software modules that can not only add to but also
+    modify existing behaviors. <br> <br>
+      
+    In this talk I will describe how Behavioral Programming concepts can be applied to React. 
+    Specifically, I will showcase real-world examples and demonstrate how programming using this 
+    new paradigm can alleviate some of the issues that arise when programming with large teams. 
+    Moreover I will present a library that can be used to program what I call "behavioral components" 
+    using this new idiom.
 
 
 #-
