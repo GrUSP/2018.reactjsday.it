@@ -125,79 +125,13 @@
           COMMUNITY
         </div>
         <div class="sponsors__partner">
-          <div class="sponsors__partner-column">
-            <a href="https://www.meetup.com/ReactVienna/" title="React Vienna" class="sponsors__link">
-              <div style="background-image: url({{ site.baseurl }}/img/reactjsday/community/react-vienna.svg)" class="sponsors__image"></div>
-            </a>
-          </div>
-
-          <div class="sponsors__partner-column">
-            <a href="https://react.amsterdam/" title="React Amsterdam" class="sponsors__link">
-              <div style="background-image: url({{ site.baseurl }}/img/reactjsday/community/react-amsterdam.png)" class="sponsors__image"></div>
-            </a>
-          </div>
-
-          <div class="sponsors__partner-column">
-            <a href="https://reactiveconf.com/" title="Reactive Conf" class="sponsors__link">
-              <div style="background-image: url({{ site.baseurl }}/img/reactjsday/community/reactive-conf.png)" class="sponsors__image"></div>
-            </a>
-          </div>
-
-          <div class="sponsors__partner-column">
-            <a href="https://reactday.berlin/" title="React Day Berlin" class="sponsors__link">
-              <div style="background-image: url({{ site.baseurl }}/img/reactjsday/community/react-berlin.png)" class="sponsors__image"></div>
-            </a>
-          </div>
-
-          <div class="sponsors__partner-column">
-            <a href="https://www.meetup.com/ReactJS-Madrid/" title="ReactJS Madrid" class="sponsors__link">
-              <div style="background-image: url({{ site.baseurl }}/img/reactjsday/community/react-madrid.png)" class="sponsors__image"></div>
-            </a>
-          </div>
-
-          <div class="sponsors__partner-column">
-            <a href="https://www.dotconferences.com/" title="Dot Conferences" class="sponsors__link">
-              <div style="background-image: url({{ site.baseurl }}/img/reactjsday/community/dot-conferences.png)" class="sponsors__image"></div>
-            </a>
-          </div>
-
-          <div class="sponsors__partner-column">
-            <a href="https://jsheroes.io" title="JS Heroes" class="sponsors__link">
-              <div style="background-image: url({{ site.baseurl }}/img/reactjsday/community/jsheroes.svg)" class="sponsors__image"></div>
-            </a>
-          </div>
-
-          <div class="sponsors__partner-column">
-            <a href="https://react-finland.fi/" title="React Finland" class="sponsors__link">
-              <div style="background-image: url({{ site.baseurl }}/img/reactjsday/community/react-finland.svg)" class="sponsors__image"></div>
-            </a>
-          </div>
-
-          <div class="sponsors__partner-column">
-            <a href="http://reactalicante.es/" title="React Alicante" class="sponsors__link">
-              <div style="background-image: url({{ site.baseurl }}/img/reactjsday/community/react-alicante.png)" class="sponsors__image"></div>
-            </a>
-          </div>
-          
-          <div class="sponsors__partner-column">
-            <a href="https://t.me/front_end_first" title="Front End First" class="sponsors__link">
-              <div style="background-image: url({{ site.baseurl }}/img/reactjsday/community/front-end-first.jpg)" class="sponsors__image"></div>
-            </a>
-          </div>
-          
-          <div class="sponsors__partner-column">
-            <a href="https://www.meetup.com/React-Scotland/" title="React Scotland" class="sponsors__link">
-              <div style="background-image: url({{ site.baseurl }}/img/reactjsday/community/react-scotland.png)" class="sponsors__image"></div>
-            </a>
-          </div>
-
-          <div class="sponsors__partner-column">
-            <a href="https://www.facebook.com/ReactBolivia/" title="React Bolivia" class="sponsors__link">
-              <div style="background-image: url({{ site.baseurl }}/img/reactjsday/community/react-bolivia.png)" class="sponsors__image"></div>
-            </a>
-          </div>
-
-          
+          {% for community in site.data.community.list %}
+            <div class="sponsors__partner-column">
+              <a href="{{ community.site }}" title="{{ community.name }}" class="sponsors__link">
+                <div style="background-image: url({{ site.baseurl }}/img/reactjsday/community/{{ community.image }})" class="sponsors__image"></div>
+              </a>
+            </div>
+          {% endfor %}
 
         </div>
       </div>
