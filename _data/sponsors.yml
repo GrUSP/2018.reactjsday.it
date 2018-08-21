@@ -62,6 +62,9 @@ platinum:
    -
      url: http://www.reply.com/triplesense/it/?utm_source=reactjsday
      image: triplesensereply.svg
+   -
+     url: https://www.westhouse-group.com
+     image: westhouse.svg
 
 gold:
   price: € 1,000
