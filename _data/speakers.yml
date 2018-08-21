@@ -10,6 +10,7 @@ list:
     first_name: Michael
     last_name: Jackson
     twitter: mjackson
+    trainer: false
 
   -
     id: sara-vieira
@@ -18,6 +19,7 @@ list:
     first_name: Sara
     last_name: Vieira
     twitter: NikkitaFTW
+    trainer: false
 
   -
     id: ives-van-hoorne
@@ -26,6 +28,7 @@ list:
     first_name: Ives
     last_name: Van Hoorne
     twitter: CompuIves
+    trainer: false
 
   -
     id: manjula-dube
@@ -42,6 +45,7 @@ list:
     first_name: Max
     last_name: Millington
     twitter:
+    trainer: false
 
   -
     id: ovidiu-chereches
@@ -50,6 +54,7 @@ list:
     first_name: Ovidiu
     last_name: Cherecheş
     twitter: skidding
+    trainer: false
 
   -
     id: luca-matteis
@@ -58,6 +63,16 @@ list:
     first_name: Luca
     last_name: Matteis
     twitter: lmatteis
+    trainer: false
+
+  -
+    id: kitze
+    description: reactacademy.io
+    image: kitze.jpg
+    first_name: Kristijan 'Kitze' 
+    last_name: Ristovski
+    twitter: thekitze
+    trainer: true
 
 #  -
 #    id:
