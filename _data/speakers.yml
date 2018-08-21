@@ -37,6 +37,7 @@ list:
     first_name: Manjula
     last_name: Dube
     twitter: manjula_dube
+    trainer: false
 
   -
     id: max-millington
