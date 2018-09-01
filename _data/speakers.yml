@@ -75,6 +75,25 @@ list:
     twitter: thekitze
     trainer: true
 
+
+  -
+    id: jared-palmer
+    description: The Palmer Group
+    image: jared-palmer.jpg
+    first_name: Jared
+    last_name: Palmer
+    twitter: jaredpalmer
+    trainer: false
+
+  -
+    id: phil-pluckthun
+    description: Formidable
+    image: phil-pluckthun.jpg
+    first_name: Phil
+    last_name: Pluckthun
+    twitter: _philpl
+    trainer: false
+
 #  -
 #    id:
 #    description:
