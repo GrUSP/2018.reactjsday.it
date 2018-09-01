@@ -90,6 +90,31 @@
     Moreover I will present a library that can be used to program what I call "behavioral components" 
     using this new idiom.
 
+-
+  speaker_id: jared-palmer
+  title: "Taming Forms in React"
+  keynote: false
+  extract: >
+    In this talk, we’re going deep on forms in React. <br> <br>
+    I’ll explore managing validation, error messages, and working with 3rd-party 
+    inputs and introduce you to Formik, a tiny form helper that lets you do all 
+    the fun stuff I just mentioned and more.
+
+-
+  speaker_id: phil-pluckthun
+  title: "Making games and physics work with Reason & Reprocessing"
+  keynote: false
+  extract: >
+    Reprocessing is a new library for Reason, a rather new programming language 
+    building on the OCaml + JavaScript ecosystems. 
+    It’s a lean wrapper around OpenGL and WebGL and allows truly cross-platform 
+    games to be written rather easily. <br> <br>
+    Reason is great for a whole lot of things, but let me take you through a 
+    story of trying to write a 2D physics engine in just under 8 hours (Mistakes were made), 
+    what strongly typed languages don’t protect you off, and a vision of what 
+    you could build with Reason or Reprocessing. The universal future is coming, 
+    and Reason is orienting itself just right with projects like bsb-native.
+
 
 #-
 #  speaker_id:
