@@ -8,9 +8,9 @@
   color: #fff;
   margin-top: 50px;
 
-  
-  @include modifier ('no-height') {
+  &.intro--no-height {
     height: auto !important;
+    min-height: 0;
   }
   
   @include modifier ('reactjsday') {
