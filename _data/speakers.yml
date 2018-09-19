@@ -32,7 +32,7 @@ list:
 
   -
     id: manjula-dube
-    description: Geekabyte
+    description: Talentwunder
     image: manjula-dube.jpg
     first_name: Manjula
     last_name: Dube
@@ -70,7 +70,7 @@ list:
     id: kitze
     description: reactacademy.io
     image: kitze.jpg
-    first_name: Kristijan 'Kitze' 
+    first_name: Kristijan 'Kitze'
     last_name: Ristovski
     twitter: thekitze
     trainer: true
