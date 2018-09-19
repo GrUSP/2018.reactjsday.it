@@ -77,6 +77,9 @@ gold:
     - 3 tickets with 15% discount
   max: 8
   list:
+    -
+      url: https://www.credimi.com
+      image: credimi.svg
 
 silver:
   price: € 500
