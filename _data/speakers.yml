@@ -73,16 +73,6 @@ list:
     first_name: Kristijan 'Kitze'
     last_name: Ristovski
     twitter: thekitze
-    trainer: true
-
-
-  -
-    id: jared-palmer
-    description: The Palmer Group
-    image: jared-palmer.jpg
-    first_name: Jared
-    last_name: Palmer
-    twitter: jaredpalmer
     trainer: false
 
   -

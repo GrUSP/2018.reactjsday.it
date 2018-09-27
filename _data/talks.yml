@@ -21,12 +21,12 @@
 
 -
   speaker_id: ives-van-hoorne
-  title: "How modern browser technologies can improve your website"
+  title: "Bridging the gap between design prototyping and code."
   keynote: false
   extract: >
-    During the talk I will explain what recent browser technologies have emerged and how you can apply this to make the
-    experience of the user better. This won't mean that you need to drop support for older browsers, these improvements
-    can be used to enhance the experience instead of replacing it.
+    I will talk about how design prototyping and production code are increasingly operable. 
+    I will speculate on what the future can hold in terms of merging design prototypes and 
+    production code and what we already can do with the tools we have today.
 
 -
   speaker_id: manjula-dube
@@ -96,14 +96,23 @@
     using this new idiom.
 
 -
-  speaker_id: jared-palmer
-  title: "Taming Forms in React"
+  speaker_id: kitze
+  title: "Navigating the hype-driven world of frontend development without going crazy"
   keynote: false
   extract: >
-    In this talk, we’re going deep on forms in React. <br> <br>
-    I’ll explore managing validation, error messages, and working with 3rd-party
-    inputs and introduce you to Formik, a tiny form helper that lets you do all
-    the fun stuff I just mentioned and more.
+    The obsession to always move on to the latest and greatest, 
+    and the fear of missing out while working with tooling that's 
+    older than few months is currently dominating the dev world. <br> <br> 
+    
+    Most developers are focused on the wrong things and they're constantly 
+    discussing things that don't matter in the long run.
+    Instead of making our workday look like fun and games by inventing tasks 
+    that seem challenging to us, we should shift the focus to providing value 
+    for the end user. <br> <br> 
+    
+    When we start looking at things in a new way, the FOMO is drastically reduced. 
+    In this talk, we're going to explore all the common pitfalls and provide
+    practical solutions for solving this problem once and for all.
 
 -
   speaker_id: phil-pluckthun
